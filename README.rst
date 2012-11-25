@@ -18,3 +18,8 @@ Fisa_bot
 I developed this app to win a web trivia contest at PyCon Argentina 2012, organized by the Onapsys company. I won an Arduino, weee :D
 
 Requires: requests, pyquery.
+
+Chronos
+-------
+
+Small stop watch for lightning talks and things like that. Start the app, write a time (formats: "4.5" or "4:30" are the same), and press enter. You can stop it with Ctrl-C, and when stopped (at "time!" or "stop"), press enter to re-enter time and start again.
