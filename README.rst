@@ -23,3 +23,10 @@ Chronos
 -------
 
 Small stop watch for lightning talks and things like that. Start the app, write a time (formats: "4.5" or "4:30" are the same), and press enter. You can stop it with Ctrl-C, and when stopped (at "time!" or "stop"), press enter to re-enter time and start again.
+
+Ballot
+------
+
+Small ballot app. Write a name, and a ballot is added to that name. Write "-name", and a ballot is removed from that name. A backup is written to disk just in case, and if you want, you can start the ballot reading the disk file with "./ballot.py BACKUP_FILE".
+
+
