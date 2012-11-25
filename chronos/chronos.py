@@ -19,12 +19,12 @@ while True:
     else:
         minutes, seconds = float(input_time), 0
     total_seconds = minutes * 60.0 + seconds + 1
-    tiempo = datetime.timedelta(0, total_seconds, 0)
+    total_time = datetime.timedelta(0, total_seconds, 0)
 
     try:
-        while datetime.datetime.now() - start < tiempo:
+        while datetime.datetime.now() - start < total_time:
             os.system('clear')
-            left = tiempo - (datetime.datetime.now() - start)
+            left = total_time - (datetime.datetime.now() - start)
             print ' %02i:%02i' % (left.seconds / 60, left.seconds % 60)
             time.sleep(0.5)
 
