@@ -29,4 +29,7 @@ Ballot
 
 Small ballot app. Write a name, and a ballot is added to that name. Write "-name", and a ballot is removed from that name. A backup is written to disk just in case, and if you want, you can start the ballot reading the disk file with "./ballot.py BACKUP_FILE".
 
+Picarder
+--------
 
+Small script to create SD cards for the Raspberry Pi using img files.
