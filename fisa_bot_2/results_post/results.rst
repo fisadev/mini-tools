@@ -80,7 +80,7 @@ O por cantidad de movimientos:
 
 
 En el primer gráfico (tiempos) se ve muy claro que en un momento dado los tiempos de todos los matches, incluso los 
-más cortos, subió. Una primera teoría podría ser que se debe a que los bots mejoraron, haciendo matches más largos
+más cortos, subió (más o menos en la partida 300). Una primera teoría podría ser que se debe a que los bots mejoraron, haciendo matches más largos
 porque morían no tan tempranamente. Peeeero, en el gráfico de cantidad de movimientos no se ve ese salto brusco. Se
 nota que a lo largo del tiempo los bots van mejorando y haciendo partidas con más movimientos, pero no se ve el salto
 de un momento a otro como en el de tiempos. Tiene que ser otra cosa.
