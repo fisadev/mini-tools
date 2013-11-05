@@ -86,8 +86,8 @@ nota que a lo largo del tiempo los bots van mejorando y haciendo partidas con m�
 de un momento a otro como en el de tiempos. Tiene que ser otra cosa.
 
 Metamos un poco más de estadísticas: "velocidad" de ejecución de los partidos. Tenemos el tiempo, tenemos la cantidad
-de movimientos, hacemos una operación y ahora tenemos la cantidad de movimientos por hora a la que ese partido se 
-ejecutó.
+de movimientos, hacemos una operación y ahora tenemos la velocidad a la que ese partido se ejecutó (la medimos en 
+"cantidad de movimientos por hora").
 
 Graficamos entonces la velocidad de las partidas:
 
