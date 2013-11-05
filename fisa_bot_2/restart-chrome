@@ -1,0 +1,7 @@
+#!/bin/bash
+killall chrome
+sleep 10
+DISPLAY=:0 google-chrome &
+
+# add to crontab:
+# */30 * * * * /home/fisa/devel/pyconar2013/restart-chrome
