@@ -217,7 +217,7 @@ class Stats(object):
         for player in self.players:
             max_losts = max(enemies[player].values())
             self.worst_enemies[player] = [player2 for player2, losts in enemies[player].items()
-                                     if losts == max_losts]
+                                          if losts == max_losts]
 
     def graph_times(self):
         self._draw_lines({'time': self.times_line})
