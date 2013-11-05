@@ -1,6 +1,8 @@
 Pytron - estadísticas
 =====================
 
+(gráficos sacados con ``stats.py``)
+
 Resultados por bot
 ------------------
 
