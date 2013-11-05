@@ -19,6 +19,13 @@ I developed this app to win a web trivia contest at PyCon Argentina 2012, organi
 
 Requires: requests, pyquery.
 
+Fisa_bot_2
+----------
+
+I developed this bot (and extra utils) to win a programming contest at PyCon Argentina 2013, organized by the Onapsys company.
+
+Requires: requests, pyquery, matplotlib, numpy.
+
 Chronos
 -------
 
