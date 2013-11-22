@@ -15,14 +15,14 @@ Requires: PIL, wx-python, opencv (not for the static version)
 Fisa_bot
 --------
 
-I developed this app to win a web trivia contest at PyCon Argentina 2012, organized by the Onapsys company. I won an Arduino, weee :D
+I developed this app to win a web trivia contest at PyCon Argentina 2012, organized by the Onapsys company. I won an Arduino (1st price), weee :D
 
 Requires: requests, pyquery.
 
 Fisa_bot_2
 ----------
 
-I developed this bot (and extra utils) to win a programming contest at PyCon Argentina 2013, organized by the Onapsys company.
+I developed this bot (and extra utils) to win a programming contest at PyCon Argentina 2013, organized by the Onapsys company. I won a SteelSeries APEX keyboard (1st price), weee :D
 
 Requires: requests, pyquery, matplotlib, numpy.
 
