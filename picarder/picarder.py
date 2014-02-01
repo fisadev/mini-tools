@@ -65,7 +65,7 @@ def create_sd(image_path):
     print 'Step 4 of 4'
     print '-----------'
 
-    write_command = 'sudo dd bs=1M if=%s of=%s' % (image_path, sd_device)
+    write_command = 'sudo dd bs=4M if=%s of=%s' % (image_path, sd_device)
 
     print 'Will write the image to the SD card in this device:'
     print sd_device
