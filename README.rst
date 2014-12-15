@@ -40,3 +40,9 @@ Picarder
 --------
 
 Small script to create SD cards for the Raspberry Pi using img files.
+
+Centerizer
+----------
+
+A simple ipython notebook to find and plot the center for a particular set of coordinates, minimizing the euclidean distance using local search algorithms (optimization), and plotting the solution with google maps.
+Live here: INSERT LINK.
