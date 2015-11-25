@@ -12,8 +12,8 @@ DEFENSE_DISTANCE = 5
 
 def safe_call(f, *args, **kwargs):
     """
-    Try to call a function. If debug is enabled, call it normally. Else, call
-    inside a try/except block.
+    Try to call a function. If debug is enabled, call it normally. Else, hide
+    any exceptions thrown.
     """
     try:
         f(*args, **kwargs)
@@ -38,7 +38,7 @@ def distance(a, b):
     """
     xa, ya = as_point(a)
     xb, yb = as_point(b)
-    return math.sqrt(abs(xa - xb)**2 + abs(ya - yb)**2)
+    return math.sqrt((xa - xb)**2 + (ya - yb)**2)
 
 
 def can_attack(a, b):
