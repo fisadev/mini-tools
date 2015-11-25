@@ -469,7 +469,8 @@ class Bot(GameBot):
         """
         Move defenders to strategic positions which help to intercept invaders.
         The best position is one which minimizes distance between
-        (unit, invader) and (unit, own hq) at the same time.
+        (unit, invader) and (unit, own hq) at the same time, but never going
+        too far away from the HQ.
         """
         for unit in self.army:
             if unit is not self.commander:
