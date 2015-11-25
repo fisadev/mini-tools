@@ -29,7 +29,7 @@ Requires: requests, pyquery, matplotlib, numpy, Onapsis online game server.
 Fisa_bot_3
 ----------
 
-I developed this bot to win a programming contest at PyCon Argentina 2015, organized by the Onapsis company.
+I developed this bot to win a programming contest at PyCon Argentina 2015, organized by the Onapsis company. I won a Tp-link TL-wdr3600 router (1st price), weee :D
 
 Requires: Onapsis online game server.
 
