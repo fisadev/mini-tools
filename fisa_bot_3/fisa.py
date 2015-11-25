@@ -250,9 +250,11 @@ class Bot(GameBot):
             return None
 
         if smart:
-            return self.smart_pathfind(initial, target, is_commander)
+            method = self.smart_pathfind
         else:
-            return self.dummy_pathfind(initial, target, is_commander)
+            method = self.dummy_pathfind
+
+        return method(initial, target, is_commander)
 
     def dummy_pathfind(self, initial, target, is_commander=False):
         """
@@ -356,7 +358,7 @@ class Bot(GameBot):
     def attack_direction(self, unit, target):
         """
         Calculate the direction needed for an attack. Assumes the target is in
-        range, and the army in formation.
+        range.
         """
         xu, yu = as_point(unit)
         target = as_point(target)
