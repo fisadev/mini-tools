@@ -457,10 +457,11 @@ class Bot(GameBot):
         """
         attackers = []
         for unit in self.army:
-            if unit is not self.commander and can_attack(unit, self.invader):
-                attackers.append(unit)
-            else:
-                self.move_unit(unit, self.invader)
+            if unit is not self.commander:
+                if can_attack(unit, self.invader):
+                    attackers.append(unit)
+                else:
+                    self.move_unit(unit, self.invader)
 
         self.perform_attacks(attackers, self.invader)
 
