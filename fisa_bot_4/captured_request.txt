@@ -1,0 +1,18 @@
+2016-11-27 12:16:22 POST http://pyconar-talks.fiqus.com/api/scores
+                         ← 201 application/json 71B 407ms
+Host:              pyconar-talks.fiqus.com
+Proxy-Connection:  keep-alive
+Content-Length:    88
+Origin:            file://
+User-Agent:        Mozilla/5.0 (Linux; Android 7.0; Nexus 5X Build/N5D91L) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.106 Crosswalk/21.51.546.7 Mobile Safari/537.36
+content-type:      application/json
+Accept:            */*
+Accept-Encoding:   gzip, deflate
+Accept-Language:   en-us
+JSON
+    "score": {
+        "score": 3, 
+        "talk_id": 3, 
+        "user_id": "b268df788d032ef5"
+    }
+}
