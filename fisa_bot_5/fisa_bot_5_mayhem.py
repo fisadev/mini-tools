@@ -1,3 +1,7 @@
+"""
+Made to solve the mayhem version of this challenge:
+http://www.mathistopheles.co.uk/2016/12/23/the-indisputable-santa-mathematical-advent-calendarday-23/#top
+"""
 
 from simpleai.search import SearchProblem, astar
 from simpleai.search.viewers import ConsoleViewer

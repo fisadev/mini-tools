@@ -1,3 +1,8 @@
+"""
+Incorrect solution! (missinterpreted rules)
+Check the merry_correct and mayhem versions to see both correct solutions.
+"""
+
 from simpleai.search import SearchProblem, astar
 from simpleai.search.viewers import ConsoleViewer
 
