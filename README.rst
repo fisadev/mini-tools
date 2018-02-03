@@ -3,7 +3,7 @@ mini-tools
 
 Small tools for specific things I needed
 
-Targeter
+Targeter DEPRECATED! (replaced by Targeter2)
 --------
 
 Small app to make live raffles, taking a picture of the group of people and pointing to a random location on the picture. 
@@ -11,6 +11,13 @@ Small app to make live raffles, taking a picture of the group of people and poin
 The common targeter (targeter.py) uses the camera. There is also a targeter_static.py which takes a file (picture.jpg) instead of using the camera. Yeah, I know, I will make a single app with settings to work on different modes.
 
 Requires: PIL, wx-python, opencv (not for the static version)
+
+Targeter2
+----------
+
+Small app to make live raffles, using a picture of the group of people and pointing to random locations on the picture. 
+
+Requires: requirements.txt in its folder.
 
 Fisa_bot
 --------
