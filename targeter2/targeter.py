@@ -22,7 +22,7 @@ from matplotlib.patches import Rectangle
 from PIL import Image
 
 
-TARGET_FACTOR = 0.05
+TARGET_FACTOR = 0.09
 
 
 class Status:
@@ -86,6 +86,8 @@ def targets_loop(picture):
         fig.canvas.set_window_title("Random targets!!")
 
         fig.canvas.mpl_connect('key_press_event', on_key)
+
+        fig.tight_layout()
 
         mng = plt.get_current_fig_manager()
         mng.resize(*mng.window.maxsize())
