@@ -97,9 +97,9 @@ def targets_loop(picture):
         last_target = len(status.targets) - 1
         for target_number, target in enumerate(status.targets):
             if target_number == last_target:
-                color = (0.5, 1, 0, 0.7)
-            else:
                 color = 'r'
+            else:
+                color = 'b'
             draw_target(target, color)
 
         plt.show(block=True)
